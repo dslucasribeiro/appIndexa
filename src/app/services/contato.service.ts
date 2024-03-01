@@ -1,10 +1,6 @@
 import { Injectable } from '@angular/core';
+import { Contato } from '../componentes/contato/contato';
 
-interface Contato {
-  id: number;
-  nome: string;
-  telefone: string;
-}
 
 @Injectable({
   providedIn: 'root'
