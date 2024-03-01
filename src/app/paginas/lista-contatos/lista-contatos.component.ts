@@ -9,12 +9,10 @@ import { ContatoComponent } from '../../componentes/contato/contato.component';
 import { SeparadorComponent } from '../../componentes/separador/separador.component';
 import { FormularioContatoComponent } from '../formulario-contato/formulario-contato.component';
 import { ContatoService } from '../../services/contato.service';
+import { Contato } from '../../componentes/contato/contato';
 
-interface Contato {
-  id: number
-  nome: string
-  telefone: string
-}
+
+
 
 
 @Component({
