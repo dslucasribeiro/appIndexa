@@ -11,4 +11,5 @@ import { CommonModule } from '@angular/common';
 export class ContatoComponent {
   @Input() nome: string = ''
   @Input() telefone: string = ''
+  @Input() email: string = ''
 }
